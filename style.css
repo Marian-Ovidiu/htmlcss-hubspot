@@ -1,0 +1,119 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Utility */
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* end Utility */
+.actions{
+  width: 1200px;
+  height: 55px;
+  margin: auto;
+  background-color: #f4f9fd;
+  border-bottom: 1px solid black;
+  color: #33475b;
+}
+.line-heightbox{
+  line-height: 55px;
+}
+.search-pic {
+height: 27px;
+width: 27px;
+}
+.search-pic > img {
+  position:  absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.inline-box{
+ display: inline-block;
+ margin-right: 15px;
+}
+select {
+  padding: 5px;
+  background-color: transparent;
+  color: #33475b;
+}
+#log-in-button{
+  background-color: transparent;
+  padding: 7px;
+  color: #fe775a;
+  border: 1px solid #fe775a;
+  border-radius: 7px 7px;
+}
+#get-hubspot-button{
+  padding: 7px;
+  background-color: #fe775a;
+  border: 1px solid #fe775a;
+  color:white;
+  border-radius: 7px 7px;
+}
+.nav-container{
+  width: 1200px;
+  height: 55px;
+  margin: auto;
+  background-color: #ffffff;
+}
+nav > ul {
+list-style: none;
+}
+nav > ul > li{
+  display: inline;
+}
+nav > ul > li> a {
+text-decoration: none;
+color: #33475b;
+margin-right: 12px;
+}
+.nav-container, .actions{
+  position: relative;
+}
+.logo-pic > img {
+  position:  absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.container-copertina{
+  width: 1200px;
+  height: 540px;
+  margin: auto;
+  background-image: url("img/jumbotron.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.title{
+  color: #33475b;
+  font-size: 40px;
+  width: 400px;
+  
+}
+.text{
+  color: #33475b;
+  width: 400px;
+  margin: 25px 0 25px 0;
+}
+#get-hubspot-big-button{
+  padding: 13px;
+  background-color: #fe775a;
+  border: 1px solid #fe775a;
+  color:white;
+  border-radius: 7px 7px;
+}
+.container-copertina > span {
+  display: block;
+  margin-top: 25px;
+  color: #33475b;
+
+}
