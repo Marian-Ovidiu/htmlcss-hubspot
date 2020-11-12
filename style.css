@@ -97,7 +97,6 @@ margin-right: 12px;
   color: #33475b;
   font-size: 40px;
   width: 400px;
-  
 }
 .text{
   color: #33475b;
@@ -115,5 +114,85 @@ margin-right: 12px;
   display: block;
   margin-top: 25px;
   color: #33475b;
+}
+.primo-container-main{
+  width: 1200px;
+  margin: auto;
+  background-color: #f4f9fd;
+}
+.primo-container-main > .img{
+  margin-top: 25px;
+  height: 150px;
+  width: 100%;
+  background-image: url("img/cubo.png");
+  background-size: 12%;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.title-uno {
+  text-align: center;
+  color: #33475b;
+  font-size: 35px;
+}
+.text-uno{
+  color: #33475b;
+  width: 800px;
+  margin: 15px auto 15px;
+  text-align: center;
+  font-size: 17px;
+}
+.secondo-container-main{
+  width: 1100px;
+  margin: auto;
+  background-color: #ffffff;
+}
+.uno {
+  width: 350px;
+  height: 100%;
+  text-align: center;
+}
+.box > .img {
+  height: 140px;
+  width: 100%;
+  background-image: url("img/libretto.png");
+  background-repeat: no-repeat;
+  background-position: center;
 
+}
+#learn-more-button{
+  padding: 10px 30px;
+  font-size: 17px;
+  background-color: #fe775a;
+  border: 1px solid #fe775a;
+  color:white;
+  border-radius: 7px 7px;
+  margin-top: 25px;
+}
+.due {
+  width: 750px;
+  height: 100%;
+}
+.title-due{
+  color: #33475b;
+  font-size: 35px;
+  margin: 25px 0 25px;
+}
+.text-due{
+  color: #33475b;
+  font-size: 17px;
+  width: 570px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.due > span {
+  color: #33475b;
+  font-size: 17px;
+  font-weight: bold;
+}
+.due > span::after {
+  display: inline-block;
+  content: "";
+  width: 400px;
+  border: 1px solid #33475b;
+  margin-left: 50px;
 }
