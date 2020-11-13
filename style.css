@@ -143,10 +143,12 @@ margin-right: 12px;
 }
 .secondo-container-main{
   width: 1100px;
-  margin: auto;
-  background-color: #ffffff;
+  height: 250px;
+  margin: 55px auto;
+  background-color: #fff;
+  box-shadow: 3px 1px 5px #000;
 }
-.uno {
+.uno, .due, .tre {
   width: 350px;
   height: 100%;
   text-align: center;
@@ -157,16 +159,15 @@ margin-right: 12px;
   background-image: url("img/libretto.png");
   background-repeat: no-repeat;
   background-position: center;
-
 }
-#learn-more-button{
+.learn-more-button{
   padding: 10px 30px;
   font-size: 17px;
   background-color: #fe775a;
   border: 1px solid #fe775a;
   color:white;
   border-radius: 7px 7px;
-  margin-top: 25px;
+  margin: 25px 0 25px;
 }
 .due {
   width: 750px;
@@ -174,7 +175,7 @@ margin-right: 12px;
 }
 .title-due{
   color: #33475b;
-  font-size: 35px;
+  font-size: 30px;
   margin: 25px 0 25px;
 }
 .text-due{
@@ -195,4 +196,61 @@ margin-right: 12px;
   width: 400px;
   border: 1px solid #33475b;
   margin-left: 50px;
+}
+.terzo-container-main{
+  width: 1200px;
+  margin: 0 auto 35px;
+}
+.terzo-container-main > .box {
+  width: 27.8%;
+  box-shadow: 3px 1px 5px #000;
+  margin-left: 50px
+}
+.terzo-container-main > .uno > .img {
+  height: 140px;
+  width: 100%;
+  background-image: url("img/marketing-hub.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.terzo-container-main > .box > .title {
+  width: 100%;
+  text-align: center;
+  color: #33475b;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0 0 25px;
+}
+.terzo-container-main > .box > .text {
+  width: 100%;
+  text-align: center;
+  color: #33475b;
+  font-size: 17px;
+  margin-bottom: 25px;
+  padding:  0 35px;
+}
+.terzo-container-main > .box > .text::after {
+  display: inline-block;
+  content: "";
+  width: 90%;
+  border: 1px solid #33475b;
+  margin: 35px 0 25px 0;
+}
+.container-check{
+  width: 100%;
+  text-align: left;
+  }
+.container-check:last-child{
+  margin-bottom: 35px;
+  }
+.terzo-container-main > .box > .container-check > .img-check {
+  height: 19px;
+  width: 18px;
+  background-image: url("img/check-orange.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-left: 20px;
+}
+.text-check, .img-check {
+  display: inline-block;
 }
