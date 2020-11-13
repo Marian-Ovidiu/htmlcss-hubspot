@@ -190,7 +190,7 @@ margin-right: 12px;
   font-size: 17px;
   font-weight: bold;
 }
-.due > span::after {
+.due > #popolar-feature::after {
   display: inline-block;
   content: "";
   width: 400px;
@@ -204,7 +204,8 @@ margin-right: 12px;
 .terzo-container-main > .box {
   width: 27.8%;
   box-shadow: 3px 1px 5px #000;
-  margin-left: 50px
+  margin-left: 50px;
+  margin-top: 50px;
 }
 .terzo-container-main > .uno > .img {
   height: 140px;
@@ -253,4 +254,82 @@ margin-right: 12px;
 }
 .text-check, .img-check {
   display: inline-block;
+}
+.quarto-container-main{
+  width: 1200px;
+  margin: 0 auto 35px;
+  background-color: #00b0b1;
+}
+.quarto-container-main > .title {
+  width: 85%;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin: auto;
+  padding: 25px;
+}
+.quarto-container-main > .text {
+  width: 90%;
+  text-align: center;
+  color: #fff;
+  font-size: 16.5px;
+  margin: 15px auto;
+}
+.quarto-container-main > .box {
+  width: 23%;
+  text-align: center;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.quarto-container-main > .uno, .cinque {
+  margin-left: 50px;
+}
+.quarto-container-main > .quattro {
+  border-right: none;
+}
+.quarto-container-main > .otto{
+  border-right: none;
+}
+.quarto-container-main > .uno, .due, .tre, .quattro {
+  margin-top: 35px;
+}
+.quarto-container-main > .cinque, .sette, .otto {
+  margin-bottom: 70px;
+  border-bottom: none;
+}
+.quarto-container-main > .sei {
+  border-bottom: none;
+}
+.quarto-container-main >.sette {
+  border-bottom: none;
+}
+.quarto-container-main >.otto {
+  border-bottom: none;
+}
+.img-qcm{
+  width: 50px;
+  height: 50px;
+  margin: 20px auto;
+}
+.quarto-container-main > .box > .img-qcm >img {
+  height: 100%;
+  width: 100%;
+}
+.quarto-container-main > .box > .titolo{
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+}
+.quarto-container-main > .box > span{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.quarto-container-main > .box > .text-qcm {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
 }
