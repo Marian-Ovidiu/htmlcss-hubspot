@@ -333,3 +333,35 @@ margin-right: 12px;
   margin-top: 20px;
   margin-bottom: 25px;
 }
+.quinto-container-main{
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+}
+.quinto-container-main > .uno-qucm{
+  width: 40%;
+}
+.quinto-container-main > .due-qucm{
+  width: 60%;
+}
+.quinto-container-main > .uno-qucm > .title {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.quinto-container-main > .uno-qucm > .text {
+  width: 200px;
+  margin: auto;
+  line-height: 25px;
+  text-align: center;
+}
+.img-qucm{
+  width: 180px;
+  height: 80px;
+}
+.quinto-container-main > .due-qucm > .container-qucm > .img-qucm >img {
+  height: 90%;
+  width: 90%;
+  text-align: center;
+  
+}
