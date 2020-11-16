@@ -15,6 +15,20 @@
   display: table;
   clear: both;
 }
+.title {
+  font-size: 30px;
+  color: #33475b;
+  font-family: 'Roboto', sans-serif;
+}
+.text {
+  font-size: 17px;
+  color: #33475b;
+  font-family: 'Roboto', sans-serif;
+}
+.box-center {
+  width: 100%;
+  text-align:  center;
+}
 /* end Utility */
 .actions{
   width: 1200px;
@@ -74,7 +88,6 @@ nav > ul > li{
 nav > ul > li> a {
 text-decoration: none;
 color: #33475b;
-margin-right: 12px;
 }
 .nav-container, .actions{
   position: relative;
@@ -93,13 +106,11 @@ margin-right: 12px;
   background-repeat: no-repeat;
   background-position: bottom right;
 }
-.title{
-  color: #33475b;
-  font-size: 40px;
+.title-copertina{
   width: 400px;
+  font-size: 35px;
 }
-.text{
-  color: #33475b;
+.text-copertina{
   width: 400px;
   margin: 25px 0 25px 0;
 }
@@ -110,10 +121,9 @@ margin-right: 12px;
   color:white;
   border-radius: 7px 7px;
 }
-.container-copertina > span {
-  display: block;
+.subtitle {
   margin-top: 25px;
-  color: #33475b;
+  font-size: 14px;
 }
 .primo-container-main{
   width: 1200px;
@@ -121,7 +131,6 @@ margin-right: 12px;
   background-color: #f4f9fd;
 }
 .primo-container-main > .img{
-  margin-top: 25px;
   height: 150px;
   width: 100%;
   background-image: url("img/cubo.png");
@@ -129,33 +138,22 @@ margin-right: 12px;
   background-repeat: no-repeat;
   background-position: center top;
 }
-.title-uno {
-  text-align: center;
-  color: #33475b;
-  font-size: 35px;
-}
 .text-uno{
-  color: #33475b;
   width: 800px;
   margin: 15px auto 15px;
   text-align: center;
-  font-size: 17px;
 }
 .secondo-container-main{
-  width: 1100px;
-  height: 250px;
-  margin: 55px auto;
+  width: 1200px;
+  margin: auto;
   background-color: #fff;
   box-shadow: 3px 1px 5px #000;
 }
-.uno, .due, .tre {
-  width: 350px;
-  height: 100%;
-  text-align: center;
+.uno {
+  width: 35%;
 }
 .box > .img {
   height: 140px;
-  width: 100%;
   background-image: url("img/libretto.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -173,19 +171,12 @@ margin-right: 12px;
   width: 750px;
   height: 100%;
 }
-.title-due{
-  color: #33475b;
-  font-size: 30px;
-  margin: 25px 0 25px;
-}
 .text-due{
-  color: #33475b;
-  font-size: 17px;
   width: 570px;
   line-height: 25px;
   margin-bottom: 25px;
 }
-.due > span {
+.due > #popolar-feature {
   color: #33475b;
   font-size: 17px;
   font-weight: bold;
@@ -200,33 +191,24 @@ margin-right: 12px;
 .terzo-container-main{
   width: 1200px;
   margin: 0 auto 35px;
+  text-align: center;
 }
-.terzo-container-main > .box {
-  width: 27.8%;
+.terzo-container-main > .box{
+  width: 28%;
   box-shadow: 3px 1px 5px #000;
-  margin-left: 50px;
   margin-top: 50px;
+}
+.terzo-container-main > .due{
+  margin: 50px 96px;
 }
 .terzo-container-main > .uno > .img {
   height: 140px;
-  width: 100%;
   background-image: url("img/marketing-hub.png");
   background-repeat: no-repeat;
   background-position: center;
 }
-.terzo-container-main > .box > .title {
-  width: 100%;
-  text-align: center;
-  color: #33475b;
-  font-size: 25px;
-  font-weight: bold;
-  margin: 0 0 25px;
-}
 .terzo-container-main > .box > .text {
   width: 100%;
-  text-align: center;
-  color: #33475b;
-  font-size: 17px;
   margin-bottom: 25px;
   padding:  0 35px;
 }
@@ -238,12 +220,11 @@ margin-right: 12px;
   margin: 35px 0 25px 0;
 }
 .container-check{
-  width: 100%;
   text-align: left;
-  }
+}
 .container-check:last-child{
   margin-bottom: 35px;
-  }
+}
 .terzo-container-main > .box > .container-check > .img-check {
   height: 19px;
   width: 18px;
@@ -264,7 +245,6 @@ margin-right: 12px;
   width: 85%;
   text-align: center;
   color: #fff;
-  font-size: 30px;
   font-weight: bold;
   margin: auto;
   padding: 25px;
@@ -282,29 +262,17 @@ margin-right: 12px;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
 }
-.quarto-container-main > .uno, .cinque {
+.quarto-container-main > .uno, .quarto-container-main >.cinque {
   margin-left: 50px;
 }
-.quarto-container-main > .quattro {
-  border-right: none;
-}
-.quarto-container-main > .otto{
+.quarto-container-main > .quattro, .quarto-container-main > .otto {
   border-right: none;
 }
 .quarto-container-main > .uno, .due, .tre, .quattro {
   margin-top: 35px;
 }
-.quarto-container-main > .cinque, .sette, .otto {
+.quarto-container-main > .cinque,.quarto-container-main > .sei,.quarto-container-main > .sette,.quarto-container-main > .otto {
   margin-bottom: 70px;
-  border-bottom: none;
-}
-.quarto-container-main > .sei {
-  border-bottom: none;
-}
-.quarto-container-main >.sette {
-  border-bottom: none;
-}
-.quarto-container-main >.otto {
   border-bottom: none;
 }
 .img-qcm{
@@ -313,8 +281,8 @@ margin-right: 12px;
   margin: 20px auto;
 }
 .quarto-container-main > .box > .img-qcm >img {
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 .quarto-container-main > .box > .titolo{
   font-size: 40px;
@@ -327,15 +295,16 @@ margin-right: 12px;
   color: white;
   font-weight: bold;
 }
-.quarto-container-main > .box > .text-qcm {
+.quarto-container-main > .box > .text{
   color: white;
+  margin: auto;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 25px;
 }
 .quinto-container-main{
   width: 1200px;
-  margin: 100px auto;
+  margin: 75px auto;
 }
 .quinto-container-main > .uno-qucm{
   width: 35%;
@@ -344,48 +313,36 @@ margin-right: 12px;
   width: 65%;
 }
 .quinto-container-main > .uno-qucm > .title {
-  margin: auto;
-  text-align: center;
   margin-bottom: 35px;
 }
 .quinto-container-main > .uno-qucm > .text {
   width: 200px;
   margin: auto;
   line-height: 25px;
-  text-align: center;
 }
 .img-qucm{
   width: 185px;
   height: 80px;
 }
 .quinto-container-main > .due-qucm > .container-qucm > .img-qucm >img {
-  height: 90%;
+  height: 60%;
   width: 90%;
   text-align: center;
 }
 .sesto-container-main {
-  width: 1100px;
+  width: 1200px;
   margin: auto;
 }
 .sesto-container-main > .uno-scm {
-  width: 35%;
+  width: 40%;
+  padding-left: 35px;
 }
 .sesto-container-main > .due-scm {
-  width: 715px;
+  width: 60%;
 }
-.sesto-container-main > .uno-scm > .title-scm {
-  font-size: 30px;
-  color: #33475b;
-  font-weight: bold;
+.sesto-container-main > .uno-scm > .title {
+font-weight: bold;
  margin-bottom: 25px;
-}
-.sesto-container-main > .uno-scm > .text-scm {
-  color: #33475b;
-  font-size: 17px;
-}
-.sesto-container-main > .uno-scm > .text1-scm {
-  color: #33475b;
-  font-size: 15px;
 }
 .sesto-container-main > .due-scm > img {
   width: 30%;
@@ -397,7 +354,7 @@ footer {
   margin: 25px auto 0;
 }
 .container-footer {
-  width: 1100px;
+  width: 1200px;
   margin: auto;
   margin-bottom: 50px;
 }
